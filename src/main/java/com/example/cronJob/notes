@@ -1,0 +1,14 @@
+
+
+1. *(Minute)  *(Hour)  *(Day of the Month)  *(Month)   *(Day of the week)
+   (0-59)      (0-23)   (1-31)               (1-12)     (0-6)
+
+
+2. (*) means that the cron will fire on every change of that value
+
+
+3. (/) is useful when you want an event to occur every certain amount of time
+
+
+4. (?) is allowed in the day-of-month and day-of-weeks fields
+    It is used to specify "no specific value"
